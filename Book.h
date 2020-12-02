@@ -9,11 +9,13 @@
 
 class Book {
 private:
+    std::string id;
     std::string title;
     std::string author;
     int pages;
 public:
-    Book(const std::string &title, const std::string &author, int pages);
+    Book();
+    Book(const std::string &id, const std::string &title, const std::string &author, int pages);
 
     const std::string &getTitle() const;
 
@@ -26,6 +28,10 @@ public:
     int getPages() const;
 
     void setPages(int pages);
+
+    const std::string &getId() const;
+
+    void setId(const std::string &id);
 
     friend std::ostream &operator<<(std::ostream &os, const Book &book);
 

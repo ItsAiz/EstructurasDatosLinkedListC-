@@ -3,6 +3,7 @@
 //
 
 #include "LinkedList.h"
+#include <vector>
 
 template<class T>
 LinkedList<T>::LinkedList() {
@@ -27,9 +28,43 @@ void LinkedList<T>::addNodeFirst(T info) {
 
 template<class T>
 std::vector<T> LinkedList<T>::getLinkedList() {
-    return std::vector<T>();
+    std::vector<T> out;
+    Node<T>* aux=head;
+    while (aux!= NULL){
+        out.push_back(aux->info);
+        aux=aux->next;
+    }
+    return out;
 }
 
+template<class T>
+Node<T> *LinkedList<T>::findNode(std::string id) {
+    Node<T>* aux=head;
+    while (aux!= NULL){
+       if(id.compare(aux->info.getId())==0){
+           return aux;
+       }
+       aux=aux->next;
+    }
+    return NULL;
+}
+template<class T>
+T *LinkedList<T>::findInfo(std::string id) {
+    return NULL;
+}
+template<class T>
+void LinkedList<T>::addLast(T info) {
+    Node<T>* newNode=new Node<T>(info);
+    if(isEmpty()){
+        head=newNode;
+    }else{
+        Node<T>* aux=head;
+        while (aux->next!=NULL){
+            aux=aux->next;
+        }
+        aux->next=newNode;
+    }
+}
 template<class T>
 LinkedList<T>::~LinkedList() {
     while (head!=NULL){
@@ -38,4 +73,7 @@ LinkedList<T>::~LinkedList() {
         delete (aux);
     }
 }
+
+
+
 

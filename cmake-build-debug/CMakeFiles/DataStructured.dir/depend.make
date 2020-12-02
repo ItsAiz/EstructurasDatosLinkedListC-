@@ -12,8 +12,9 @@ CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Node.h
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Stack.cpp
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Stack.h
 
+CMakeFiles/DataStructured.dir/main.cpp.obj: ../Book.h
+CMakeFiles/DataStructured.dir/main.cpp.obj: ../LinkedList.cpp
+CMakeFiles/DataStructured.dir/main.cpp.obj: ../LinkedList.h
 CMakeFiles/DataStructured.dir/main.cpp.obj: ../Node.h
-CMakeFiles/DataStructured.dir/main.cpp.obj: ../Stack.cpp
-CMakeFiles/DataStructured.dir/main.cpp.obj: ../Stack.h
 CMakeFiles/DataStructured.dir/main.cpp.obj: ../main.cpp
 

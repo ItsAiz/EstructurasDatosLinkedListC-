@@ -3,13 +3,14 @@
 //
 
 #include "Book.h"
-
-Book::Book(const std::string &title, const std::string &author, int pages) : title(title), author(author),
-                                                                             pages(pages) {}
-
-Book::~Book() {
+Book::Book(const std::string &id, const std::string &title, const std::string &author, int pages) : id(id),
+                                                                                                    title(title),
+                                                                                                    author(author),
+                                                                                                    pages(pages) {
 
 }
+
+
 
 const std::string &Book::getTitle() const {
     return title;
@@ -35,7 +36,21 @@ void Book::setPages(int pages) {
     Book::pages = pages;
 }
 
+
+const std::string &Book::getId() const {
+    return id;
+}
+
+void Book::setId(const std::string &id) {
+    Book::id = id;
+}
+
 std::ostream &operator<<(std::ostream &os, const Book &book) {
-    os << "title: " << book.title << " author: " << book.author << " pages: " << book.pages;
+    os << "id: " << book.id << " title: " << book.title << " author: " << book.author << " pages: " << book.pages;
     return os;
+}
+Book::~Book() {
+}
+
+Book::Book() {
 }
