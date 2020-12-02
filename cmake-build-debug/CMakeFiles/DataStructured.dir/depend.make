@@ -4,6 +4,10 @@
 CMakeFiles/DataStructured.dir/Book.cpp.obj: ../Book.cpp
 CMakeFiles/DataStructured.dir/Book.cpp.obj: ../Book.h
 
+CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: ../LinkedList.cpp
+CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: ../LinkedList.h
+CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: ../Node.h
+
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Node.h
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Stack.cpp
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Stack.h

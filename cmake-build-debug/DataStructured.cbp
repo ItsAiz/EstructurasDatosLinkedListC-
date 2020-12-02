@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/Book.h">
 			<Option target="DataStructured"/>
 		</Unit>
+		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp">
+			<Option target="DataStructured"/>
+		</Unit>
+		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h">
+			<Option target="DataStructured"/>
+		</Unit>
 		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/Node.h">
 			<Option target="DataStructured"/>
 		</Unit>

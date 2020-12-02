@@ -169,6 +169,33 @@ Book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/Book.cpp.s
 .PHONY : Book.cpp.s
 
+LinkedList.obj: LinkedList.cpp.obj
+
+.PHONY : LinkedList.obj
+
+# target to build an object file
+LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.obj
+.PHONY : LinkedList.cpp.obj
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
 Stack.obj: Stack.cpp.obj
 
 .PHONY : Stack.obj
@@ -235,6 +262,9 @@ help:
 	@echo ... Book.obj
 	@echo ... Book.i
 	@echo ... Book.s
+	@echo ... LinkedList.obj
+	@echo ... LinkedList.i
+	@echo ... LinkedList.s
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s

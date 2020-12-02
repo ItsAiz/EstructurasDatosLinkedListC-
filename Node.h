@@ -6,11 +6,10 @@
 #define PRIMERSESIONESTRUCTURASDATOS_NODE_H
 #include <cstdlib>
 
-template <class T> class Stack;
-
+template <class T> class LinkedList;
 template <class T>
 class Node {
-    friend class Stack<T>;
+    friend class LinkedList<T>;
 
 public:
     Node(T info) : info(info) {

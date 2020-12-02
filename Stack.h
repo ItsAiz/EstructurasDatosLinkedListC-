@@ -15,6 +15,8 @@ public:
     void push( T );
     T pop();
 
+    Node<T> *getHead() const;
+
     ~Stack();
 
 private:

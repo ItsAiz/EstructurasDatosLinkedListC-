@@ -41,5 +41,10 @@ Stack<T>::~Stack() {
 
 }
 
+template<class T>
+Node<T> *Stack<T>::getHead() const {
+    return head;
+}
+
 
 

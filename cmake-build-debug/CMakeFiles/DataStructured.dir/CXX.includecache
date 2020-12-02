@@ -6,27 +6,15 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
+LinkedList.h
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
+
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
+Node.h
+C:/Users/jxesa/CLionProjects/DataStructured/Node.h
+
 C:/Users/jxesa/CLionProjects/DataStructured/Node.h
 cstdlib
 -
-
-C:/Users/jxesa/CLionProjects/DataStructured/Stack.cpp
-Stack.h
-C:/Users/jxesa/CLionProjects/DataStructured/Stack.h
-
-C:/Users/jxesa/CLionProjects/DataStructured/Stack.h
-Node.h
-C:/Users/jxesa/CLionProjects/DataStructured/Node.h
-
-C:/Users/jxesa/CLionProjects/DataStructured/main.cpp
-iostream
--
-Node.h
-C:/Users/jxesa/CLionProjects/DataStructured/Node.h
-Stack.h
-C:/Users/jxesa/CLionProjects/DataStructured/Stack.h
-string
--
-Stack.cpp
-C:/Users/jxesa/CLionProjects/DataStructured/Stack.cpp
 
