@@ -50,6 +50,14 @@ Node<T> *LinkedList<T>::findNode(std::string id) {
 }
 template<class T>
 T *LinkedList<T>::findInfo(std::string id) {
+    Node<T>* aux=head;
+    while (aux!= NULL){
+        if(id.compare(aux->info.getId())==0){
+            T* info=&aux->info;
+            return info;
+        }
+        aux=aux->next;
+    };
     return NULL;
 }
 template<class T>
@@ -66,6 +74,29 @@ void LinkedList<T>::addLast(T info) {
     }
 }
 template<class T>
+int LinkedList<T>::getSize() {
+    int counter=0;
+    Node<T>* aux=head;
+    while (aux!=NULL){
+        aux=aux->next;
+        counter++;
+    }
+    return counter;
+}
+template<class T>
+void LinkedList<T>::addNodeAfterTo(Node<T>* newNode,T info) {
+    while (newNode!=NULL){
+        Node<T>* last=new Node<T>(info);
+        newNode->next=last;
+      //  last->next=
+    }
+}
+template<class T>
+void LinkedList<T>::addNodeBeforeTo(Node<T>*,T) {
+
+}
+
+template<class T>
 LinkedList<T>::~LinkedList() {
     while (head!=NULL){
         Node<T>* aux=head;
@@ -73,6 +104,25 @@ LinkedList<T>::~LinkedList() {
         delete (aux);
     }
 }
+
+template<class T>
+T *LinkedList<T>::getObject(int position) {
+    short int counter=0;
+    Node<T>* aux =head;
+    while(aux!=NULL){
+        if(counter==position){
+            T* info= &aux ->info;
+            return info;
+        }
+        aux=aux->next;
+        counter++;
+    }
+    return NULL;
+}
+
+
+
+
 
 
 

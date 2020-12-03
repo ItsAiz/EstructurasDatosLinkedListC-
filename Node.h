@@ -16,13 +16,14 @@ public:
         next = NULL;
     }
 
-    virtual ~Node() {
+    T getInfo() const;
 
+    virtual ~Node() {
     }
 
 private:
     T info;
     Node<T>* next;
-};;
+};
 
 #endif //PRIMERSESIONESTRUCTURASDATOS_NODE_H

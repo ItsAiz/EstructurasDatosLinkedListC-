@@ -21,8 +21,13 @@ public:
     Node<T>* findNode(std::string id);
     T* findInfo(std::string);
     void addLast(T);
+    void addNodeAfterTo(Node<T>*,T);
+    void addNodeBeforeTo(Node<T>*,T);
+    int getSize();
+    T* getObject(int);
     virtual ~LinkedList();
 
 };
+
 
 #endif //DATASTRUCTURED_LINKEDLIST_H

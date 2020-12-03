@@ -11,8 +11,12 @@ int main() {
     list->addNodeFirst(Book("4", "Que creativo", "Garcia", 806));
     list->addLast(Book("5", "Si o no", "Garcia", 100));
     Node<Book>* node=list->findNode("5");
-    //auto* info=list->findInfo("5");
-    //cout<<*info<<endl;
+    auto* info=list->findInfo("4");
+//    cout<<*info<<endl;
+  //  list->addNodeAfterTo(node,Book("6", "Yo no se", "El pepe", 150));
+   // list->addNodeBeforeTo(node,Book("7", "Pero bueno", "Potazio", 160));
+   cout<<to_string(list->getSize())<<endl;
+    cout<<"GetObject: "<<*list->getObject(0)<<endl;
     if(node!=NULL){
         cout<<"Existe el nodo"<<endl;
     }else{
