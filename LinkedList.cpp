@@ -57,7 +57,7 @@ T *LinkedList<T>::findInfo(std::string id) {
             return info;
         }
         aux=aux->next;
-    };
+    }
     return NULL;
 }
 template<class T>
