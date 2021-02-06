@@ -24,6 +24,6 @@ public:
 private:
     T info;
     Node<T>* next;
-};;
+};
 
 #endif //PRIMERSESIONESTRUCTURASDATOS_NODE_H
