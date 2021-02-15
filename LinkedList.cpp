@@ -12,7 +12,7 @@ LinkedList<T>::LinkedList() {
 
 template<class T>
 bool LinkedList<T>::isEmpty() {
-    return false;
+    return head==NULL;
 }
 
 template<class T>
