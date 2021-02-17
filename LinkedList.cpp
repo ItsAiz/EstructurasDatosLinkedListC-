@@ -84,15 +84,37 @@ int LinkedList<T>::getSize() {
     return counter;
 }
 template<class T>
-void LinkedList<T>::addNodeAfterTo(Node<T>* newNode,T info) {
-    while (newNode!=NULL){
-        Node<T>* last=new Node<T>(info);
-        newNode->next=last;
-      //  last->next=
+void LinkedList<T>::addNodeAfterTo(Node<T>* nodeReference,T info) {
+    if(isEmpty()){
+        head=new Node<T>(info);
+    }else{
+        if(nodeReference==head){
+            addNodeFirst(info);
+        }else{
+            //Node<T>* aux=nodeReference;
+            Node<T>* newNode=new Node<T>(info);
+            newNode->next=nodeReference->next;
+            nodeReference->next=newNode;
+        }
     }
 }
 template<class T>
-void LinkedList<T>::addNodeBeforeTo(Node<T>*,T) {
+void LinkedList<T>::addNodeBeforeTo(Node<T>* nodeReference,T info) {
+    if(isEmpty()){
+        head=new Node<T>(info);
+    }else{
+        if(nodeReference==head){
+            addNodeFirst(info);
+        }else{
+            Node<T>* aux=head;
+            while (aux->next!=nodeReference){
+              aux=aux->next;
+            }
+            Node<T>* newNode= new Node<T>(info);
+            newNode->next=aux->next;
+            aux->next=newNode;
+        }
+    }
 
 }
 

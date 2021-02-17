@@ -12,11 +12,17 @@ int main() {
     list->addLast(Book("5", "Si o no", "Garcia", 100));
     Node<Book>* node=list->findNode("5");
     auto* info=list->findInfo("4");
-    cout<<*info<<endl;
-  //  list->addNodeAfterTo(node,Book("6", "Yo no se", "El pepe", 150));
-   // list->addNodeBeforeTo(node,Book("7", "Pero bueno", "Potazio", 160));
+    cout<<"Info node: "<<*info<<endl;
+    for (Book book: list->getLinkedList()){
+        cout<<book<<"\n";
+    }
+
+    list->addNodeBeforeTo(list->findNode("3"),Book("7", "Pero bueno", "Potazio", 160));
+    list->addNodeAfterTo(list->findNode("1"),Book("8","potatzio","Yo",500));
+
     cout<<"Size linkedlist: "<<to_string(list->getSize())<<endl;
     cout<<"GetObject: "<<*list->getObject(0)<<endl;
+
     if(node!=NULL){
         cout<<"Existe el nodo"<<endl;
     }else{

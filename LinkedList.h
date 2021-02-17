@@ -28,6 +28,4 @@ public:
     virtual ~LinkedList();
 
 };
-
-
 #endif //DATASTRUCTURED_LINKEDLIST_H
