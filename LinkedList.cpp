@@ -91,7 +91,6 @@ void LinkedList<T>::addNodeAfterTo(Node<T>* nodeReference,T info) {
         if(nodeReference==head){
             addNodeFirst(info);
         }else{
-            //Node<T>* aux=nodeReference;
             Node<T>* newNode=new Node<T>(info);
             newNode->next=nodeReference->next;
             nodeReference->next=newNode;
@@ -117,16 +116,26 @@ void LinkedList<T>::addNodeBeforeTo(Node<T>* nodeReference,T info) {
     }
 
 }
-
 template<class T>
-LinkedList<T>::~LinkedList() {
-    while (head!=NULL){
-        Node<T>* aux=head;
-        head=head->next;
-        delete (aux);
+void LinkedList<T>::addNodeSorted(T info) {
+    Node<T>* newNode=new Node<T>(info);
+    if(isEmpty()){
+        head=new Node<T>(info);
+    }else{
+        Node<T>* act = head;
+        Node<T>* ant = NULL;
+        while(act!=NULL && info.getId().compare(act->info.getId())>0){
+            ant=act;
+            act=act->next;
+        }
+        if(ant==NULL){
+            head=newNode;
+        }else{
+            ant->next=newNode;
+        }
+        newNode->next=act;
     }
 }
-
 template<class T>
 T *LinkedList<T>::getObject(int position) {
     short int counter=0;
@@ -141,6 +150,15 @@ T *LinkedList<T>::getObject(int position) {
     }
     return NULL;
 }
+template<class T>
+LinkedList<T>::~LinkedList() {
+    while (head!=NULL){
+        Node<T>* aux=head;
+        head=head->next;
+        delete (aux);
+    }
+}
+
 
 
 

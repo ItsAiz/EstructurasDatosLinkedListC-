@@ -5,6 +5,15 @@ using namespace std;
 
 int main() {
     auto* list=new LinkedList<Book>();
+    auto* listSorted=new LinkedList<Book>();
+    listSorted->addNodeSorted(Book("1", "cien anios soledad", "Garcia", 246));
+    listSorted->addNodeSorted(Book("2", "Satanas", "Mendoza", 506));
+    listSorted->addNodeSorted(Book("3", "No me se otro", "Garcia", 230));
+    listSorted->addNodeSorted(Book("4", "Que creativo", "Garcia", 806));
+    listSorted->addNodeSorted(Book("5", "Si o no", "Garcia", 100));
+    listSorted->addNodeSorted(Book("7", "Pero bueno", "Potazio", 160));
+    listSorted->addNodeSorted(Book("8","potatzio","Yo",500));
+
     list->addNodeFirst(Book("1", "cien anios soledad", "Garcia", 246));
     list->addNodeFirst(Book("2", "Satanas", "Mendoza", 506));
     list->addNodeFirst(Book("3", "No me se otro", "Garcia", 230));
@@ -28,7 +37,12 @@ int main() {
     }else{
         cout<<"El nodo no existe"<<endl;
     }
+    cout<<"Nuevos añadidos"<<endl;
     for (Book book: list->getLinkedList()){
+        cout<<book<<"\n";
+    }
+    cout<<"Lista ordenada"<<endl;
+    for (Book book: listSorted->getLinkedList()){
         cout<<book<<"\n";
     }
     cout<<endl;

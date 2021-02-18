@@ -23,6 +23,7 @@ public:
     void addLast(T);
     void addNodeAfterTo(Node<T>*,T);
     void addNodeBeforeTo(Node<T>*,T);
+    void addNodeSorted(T);
     int getSize();
     T* getObject(int);
     virtual ~LinkedList();
