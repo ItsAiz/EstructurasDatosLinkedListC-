@@ -41,6 +41,13 @@ int main() {
     for (Book book: list->getLinkedList()){
         cout<<book<<"\n";
     }
+    cout<<"Eliminar nodo"<<endl;
+    Node<Book>* nodeDelede=list->findNode("5");
+    Book bookDeleted=list->deleteNode(nodeDelede);
+    for (Book book: list->getLinkedList()){
+        cout<<book<<"\n";
+    }
+    cout<<"Nodo eliminado: "<<bookDeleted<<endl;
     cout<<"Lista ordenada"<<endl;
     for (Book book: listSorted->getLinkedList()){
         cout<<book<<"\n";

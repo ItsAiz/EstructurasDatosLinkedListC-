@@ -26,6 +26,7 @@ public:
     void addNodeSorted(T);
     int getSize();
     T* getObject(int);
+    T deleteNode(Node<T>*);
     virtual ~LinkedList();
 
 };

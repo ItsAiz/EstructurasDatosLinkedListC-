@@ -151,6 +151,23 @@ T *LinkedList<T>::getObject(int position) {
     return NULL;
 }
 template<class T>
+T LinkedList<T>::deleteNode(Node<T>* nodeReference) {
+    if(nodeReference==head){
+        head=nodeReference->next;
+        T info=nodeReference->info;
+        return info;
+    }else{
+        Node<T>* aux=head;
+        while (aux->next!=nodeReference){
+            aux=aux->next;
+        }
+        T info=aux->next->info;
+        aux->next=nodeReference->next;
+        return info;
+    }
+}
+
+template<class T>
 LinkedList<T>::~LinkedList() {
     while (head!=NULL){
         Node<T>* aux=head;
