@@ -163,6 +163,7 @@ T LinkedList<T>::deleteNode(Node<T>* nodeReference) {
         }
         T info=aux->next->info;
         aux->next=nodeReference->next;
+        delete(nodeReference);
         return info;
     }
 }

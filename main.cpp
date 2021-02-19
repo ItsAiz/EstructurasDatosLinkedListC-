@@ -48,11 +48,13 @@ int main() {
         cout<<book<<"\n";
     }
     cout<<"Nodo eliminado: "<<bookDeleted<<endl;
+
     cout<<"Lista ordenada"<<endl;
     for (Book book: listSorted->getLinkedList()){
         cout<<book<<"\n";
     }
     cout<<endl;
     delete (list);
+    delete (listSorted);
     return 0;
 }
