@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     auto* list=new LinkedList<Book>();
     auto* listSorted=new LinkedList<Book>();
+    cout<<"Double Linked List"<<endl;
     listSorted->addNodeSorted(Book("1", "cien anios soledad", "Garcia", 246));
     listSorted->addNodeSorted(Book("2", "Satanas", "Mendoza", 506));
     listSorted->addNodeSorted(Book("3", "No me se otro", "Garcia", 230));
