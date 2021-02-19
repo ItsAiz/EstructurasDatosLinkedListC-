@@ -46,7 +46,13 @@ std::vector<T> LinkedDouble<T>::getLinkedList(bool forward) {
     DoubleNode<T>* aux=forward?head:last;
     while (aux!=NULL){
         out.push_back(aux->info);
-        aux=forward?head:last;
+        aux=forward?aux->next:aux->previous;
     }
+    return out;
+
+}
+
+template<class T>
+LinkedDouble<T>::~LinkedDouble() {
 
 }

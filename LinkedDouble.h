@@ -18,6 +18,8 @@ class LinkedDouble {
      void addNodeFirst(T info);
      void addNodeLast(T info);
      std::vector<T> getLinkedList(bool forward);
+
+    virtual ~LinkedDouble();
 };
 
 

@@ -12,6 +12,22 @@ string
 ostream
 -
 
+C:/Users/jxesa/CLionProjects/DataStructured/DoubleNode.h
+cstdlib
+-
+
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.cpp
+LinkedDouble.h
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.h
+
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.h
+DoubleNode.h
+C:/Users/jxesa/CLionProjects/DataStructured/DoubleNode.h
+vector
+-
+string
+-
+
 C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
 LinkedList.h
 C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
@@ -35,6 +51,8 @@ iostream
 -
 LinkedList.cpp
 C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
+LinkedDouble.cpp
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.cpp
 Book.h
 C:/Users/jxesa/CLionProjects/DataStructured/Book.h
 
