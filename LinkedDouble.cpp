@@ -76,20 +76,18 @@ T *LinkedDouble<T>::findInfo(std::string id) {
 }
 template<class T>
 void LinkedDouble<T>::addNodeAfterTo(DoubleNode<T> *nodeReference, T info) {
-    DoubleNode<T>* newNode=new DoubleNode<T>(info);
+    DoubleNode<T>* newNode = new DoubleNode<T>(info);
     if(isEmpty()){
-        head=newNode;
-        last=newNode;
-    }else{
-        if(nodeReference==last){
+        head = newNode;
+        last = newNode;
+    } else {
+        if (nodeReference == last) {
             addNodeLast(info);
-        }else{
-            DoubleNode<T>* nodeAux=nodeReference->next;
-            newNode->next=nodeReference->next;
-            nodeReference->next=newNode;
-            newNode->previous=nodeReference;
-            nodeAux->previous=newNode;
-
+        } else {
+            newNode->previous = nodeReference;
+            newNode->next = nodeReference->next;
+            newNode->next->previous = newNode;
+            nodeReference->next = newNode;
         }
     }
 
@@ -105,11 +103,10 @@ void LinkedDouble<T>::addNodeBeforeTo(DoubleNode<T>* nodeReference,T info) {
         if(nodeReference==head){
             addNodeFirst(info);
         }else{
-            DoubleNode<T>* nodeAux=nodeReference->previous;
-            nodeReference->previous=newNode;
-            newNode->previous=nodeAux;
-            nodeAux->next=newNode;
             newNode->next=nodeReference;
+            newNode->previous=nodeReference->previous;
+            nodeReference->previous=newNode;
+            newNode->previous->next=newNode;
         }
     }
 }
