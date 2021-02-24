@@ -15,7 +15,7 @@ class DoubleNode{
         DoubleNode<T>* next;
         DoubleNode<T>* previous;
     public:
-     DoubleNode(T info): info(info){
+    DoubleNode(T info): info(info){
          next=NULL;
          previous=NULL;
      }

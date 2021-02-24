@@ -17,7 +17,12 @@ class LinkedDouble {
      bool isEmpty();
      void addNodeFirst(T info);
      void addNodeLast(T info);
+     DoubleNode<T>* findNode(std::string id);
+     T* findInfo(std::string id);
      std::vector<T> getLinkedList(bool forward);
+     void addNodeAfterTo(DoubleNode<T>* nodeReference,T info);
+     void addNodeBeforeTo(DoubleNode<T>* nodeReference,T info);
+     T* getObject(int position);
 
     virtual ~LinkedDouble();
 };
