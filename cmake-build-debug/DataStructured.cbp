@@ -86,10 +86,10 @@
 		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/Book.h">
 			<Option target="DataStructured"/>
 		</Unit>
-		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp">
+		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.cpp">
 			<Option target="DataStructured"/>
 		</Unit>
-		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h">
+		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.h">
 			<Option target="DataStructured"/>
 		</Unit>
 		<Unit filename="C:/Users/jxesa/CLionProjects/DataStructured/Node.h">

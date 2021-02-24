@@ -115,25 +115,25 @@ CMakeFiles/DataStructured.dir/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/Stack.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp -o CMakeFiles\DataStructured.dir\Stack.cpp.s
 
-CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
-CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: ../LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructured.dir/LinkedList.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\LinkedList.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp
+CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
+CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj: ../LinkedCircle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\LinkedCircle.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\LinkedCircle.cpp
 
-CMakeFiles/DataStructured.dir/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/LinkedList.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp > CMakeFiles\DataStructured.dir\LinkedList.cpp.i
+CMakeFiles/DataStructured.dir/LinkedCircle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/LinkedCircle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\LinkedCircle.cpp > CMakeFiles\DataStructured.dir\LinkedCircle.cpp.i
 
-CMakeFiles/DataStructured.dir/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/LinkedList.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp -o CMakeFiles\DataStructured.dir\LinkedList.cpp.s
+CMakeFiles/DataStructured.dir/LinkedCircle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/LinkedCircle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\LinkedCircle.cpp -o CMakeFiles\DataStructured.dir\LinkedCircle.cpp.s
 
 # Object files for target DataStructured
 DataStructured_OBJECTS = \
 "CMakeFiles/DataStructured.dir/main.cpp.obj" \
 "CMakeFiles/DataStructured.dir/Book.cpp.obj" \
 "CMakeFiles/DataStructured.dir/Stack.cpp.obj" \
-"CMakeFiles/DataStructured.dir/LinkedList.cpp.obj"
+"CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj"
 
 # External object files for target DataStructured
 DataStructured_EXTERNAL_OBJECTS =
@@ -141,7 +141,7 @@ DataStructured_EXTERNAL_OBJECTS =
 DataStructured.exe: CMakeFiles/DataStructured.dir/main.cpp.obj
 DataStructured.exe: CMakeFiles/DataStructured.dir/Book.cpp.obj
 DataStructured.exe: CMakeFiles/DataStructured.dir/Stack.cpp.obj
-DataStructured.exe: CMakeFiles/DataStructured.dir/LinkedList.cpp.obj
+DataStructured.exe: CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj
 DataStructured.exe: CMakeFiles/DataStructured.dir/build.make
 DataStructured.exe: CMakeFiles/DataStructured.dir/linklibs.rsp
 DataStructured.exe: CMakeFiles/DataStructured.dir/objects1.rsp

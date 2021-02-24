@@ -4,9 +4,9 @@
 CMakeFiles/DataStructured.dir/Book.cpp.obj
  C:/Users/jxesa/CLionProjects/DataStructured/Book.cpp
  C:/Users/jxesa/CLionProjects/DataStructured/Book.h
-CMakeFiles/DataStructured.dir/LinkedList.cpp.obj
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
+CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj
+ C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.cpp
+ C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.h
  C:/Users/jxesa/CLionProjects/DataStructured/Node.h
 CMakeFiles/DataStructured.dir/Stack.cpp.obj
  C:/Users/jxesa/CLionProjects/DataStructured/Node.h
@@ -14,10 +14,7 @@ CMakeFiles/DataStructured.dir/Stack.cpp.obj
  C:/Users/jxesa/CLionProjects/DataStructured/Stack.h
 CMakeFiles/DataStructured.dir/main.cpp.obj
  C:/Users/jxesa/CLionProjects/DataStructured/Book.h
- C:/Users/jxesa/CLionProjects/DataStructured/DoubleNode.h
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.cpp
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.h
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
- C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
+ C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.cpp
+ C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.h
  C:/Users/jxesa/CLionProjects/DataStructured/Node.h
  C:/Users/jxesa/CLionProjects/DataStructured/main.cpp

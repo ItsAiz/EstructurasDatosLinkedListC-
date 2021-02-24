@@ -12,34 +12,14 @@ string
 ostream
 -
 
-C:/Users/jxesa/CLionProjects/DataStructured/DoubleNode.h
-cstdlib
--
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.cpp
+LinkedCircle.h
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.h
 
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.cpp
-LinkedDouble.h
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.h
-
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.h
-DoubleNode.h
-C:/Users/jxesa/CLionProjects/DataStructured/DoubleNode.h
-vector
--
-string
--
-
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
-LinkedList.h
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
-vector
--
-
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.h
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.h
 Node.h
 C:/Users/jxesa/CLionProjects/DataStructured/Node.h
 vector
--
-string
 -
 
 C:/Users/jxesa/CLionProjects/DataStructured/Node.h
@@ -49,10 +29,8 @@ cstdlib
 C:/Users/jxesa/CLionProjects/DataStructured/main.cpp
 iostream
 -
-LinkedList.cpp
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedList.cpp
-LinkedDouble.cpp
-C:/Users/jxesa/CLionProjects/DataStructured/LinkedDouble.cpp
 Book.h
 C:/Users/jxesa/CLionProjects/DataStructured/Book.h
+LinkedCircle.cpp
+C:/Users/jxesa/CLionProjects/DataStructured/LinkedCircle.cpp
 

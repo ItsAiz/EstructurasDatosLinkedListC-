@@ -169,32 +169,32 @@ Book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/Book.cpp.s
 .PHONY : Book.cpp.s
 
-LinkedList.obj: LinkedList.cpp.obj
+LinkedCircle.obj: LinkedCircle.cpp.obj
 
-.PHONY : LinkedList.obj
+.PHONY : LinkedCircle.obj
 
 # target to build an object file
-LinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.obj
-.PHONY : LinkedList.cpp.obj
+LinkedCircle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedCircle.cpp.obj
+.PHONY : LinkedCircle.cpp.obj
 
-LinkedList.i: LinkedList.cpp.i
+LinkedCircle.i: LinkedCircle.cpp.i
 
-.PHONY : LinkedList.i
+.PHONY : LinkedCircle.i
 
 # target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
+LinkedCircle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedCircle.cpp.i
+.PHONY : LinkedCircle.cpp.i
 
-LinkedList.s: LinkedList.cpp.s
+LinkedCircle.s: LinkedCircle.cpp.s
 
-.PHONY : LinkedList.s
+.PHONY : LinkedCircle.s
 
 # target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
+LinkedCircle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructured.dir\build.make CMakeFiles/DataStructured.dir/LinkedCircle.cpp.s
+.PHONY : LinkedCircle.cpp.s
 
 Stack.obj: Stack.cpp.obj
 
@@ -262,9 +262,9 @@ help:
 	@echo ... Book.obj
 	@echo ... Book.i
 	@echo ... Book.s
-	@echo ... LinkedList.obj
-	@echo ... LinkedList.i
-	@echo ... LinkedList.s
+	@echo ... LinkedCircle.obj
+	@echo ... LinkedCircle.i
+	@echo ... LinkedCircle.s
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s

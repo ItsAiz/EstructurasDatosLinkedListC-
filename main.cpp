@@ -1,29 +1,29 @@
 #include <iostream>
 #include "Book.h"
+#include "LinkedCircle.cpp"
 using namespace std;
-
+void printList(std::vector<int> list){
+    for(int num: list){
+        cout<<num<<"\t";
+    }
+}
 int main() {
-//    auto* doubleBook=new LinkedDouble<Book>();
-//    doubleBook->addNodeFirst(Book("1", "cien anios soledad", "Garcia", 246));
-//    doubleBook->addNodeFirst(Book("2", "Satanas", "Mendoza", 506));
-//    doubleBook->addNodeFirst(Book("3", "No me se otro", "Garcia", 230));
-//    doubleBook->addNodeFirst(Book("4", "Que creativo", "Garcia", 806));
-//    cout<<"Hacia adelante"<<endl;
-//    for(Book book: doubleBook->getLinkedList(true)){
-//        cout<<book<<"\n";
-//    }
-//    cout<<"Hacia Atras"<<endl;
-//    for(Book book: doubleBook->getLinkedList(false)){
-//        cout<<book<<"\n";
-//    }
-//   // cout<<"Posicion 3 buscado: "<<*doubleBook->getObject(3)<<endl;
-//    //doubleBook->addNodeAfterTo(doubleBook->findNode("1"),Book("5", "Biblia", "Dios", 216));
-//    doubleBook->addNodeBeforeTo(doubleBook->findNode("4"),Book("5", "Biblia", "Dios", 216));
-//    //cout<<"getLast: "<<doubleBook->getLast()<<endl;
-//    cout<<"Hacia adelante anhadido antes de "<<endl;
-//    for(Book book: doubleBook->getLinkedList(true)){
-//        cout<<book<<"\n";
-//    }
-//    delete (doubleBook);
+    auto* list=new LinkedCircle<int>();
+    list->addNodeLast(23);
+    list->addNodeFirst(45);
+    list->addNodeFirst(28);
+    list->addNodeFirst(18);
+    list->addNodeFirst(5);
+    list->addNodeLast(55);
+    list->addNodeLast(59);
+    printList(list->getLinkedCircular());
+    Node<int>* find=list->findNode(45);
+    if(find!=NULL){
+        cout<<"\nEl nodo existe"<<endl;
+    }else{
+        cout<<"El nodo no existe"<<endl;
+    }
+    printList(list->runLinkedCircular(find));
+
     return 0;
 }
