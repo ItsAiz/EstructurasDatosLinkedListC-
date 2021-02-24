@@ -3,4 +3,4 @@ project(DataStructured)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DataStructured main.cpp Book.cpp Book.h Node.h Stack.cpp Stack.h LinkedList.cpp LinkedList.h)
+add_executable(DataStructured main.cpp Book.cpp Book.h Stack.cpp Stack.h)
