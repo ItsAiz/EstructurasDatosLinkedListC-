@@ -54,7 +54,7 @@ std::vector<T> LinkedDouble<T>::getLinkedList(bool forward) {
 template<class T>
 DoubleNode<T> *LinkedDouble<T>::findNode(std::string id) {
     DoubleNode<T>* aux=head;
-    while (aux->next!= NULL){
+    while (aux!= NULL){
         if(id.compare(aux->info.getId())==0){
             return  aux;
         }
@@ -81,7 +81,7 @@ void LinkedDouble<T>::addNodeAfterTo(DoubleNode<T> *nodeReference, T info) {
         head = newNode;
         last = newNode;
     } else {
-        if (nodeReference == last) {
+        if(nodeReference == last){
             addNodeLast(info);
         } else {
             newNode->previous = nodeReference;
@@ -95,12 +95,12 @@ void LinkedDouble<T>::addNodeAfterTo(DoubleNode<T> *nodeReference, T info) {
 
 template<class T>
 void LinkedDouble<T>::addNodeBeforeTo(DoubleNode<T>* nodeReference,T info) {
-    DoubleNode<T>* newNode=new DoubleNode<T>(info);
-    if(isEmpty()){
+    DoubleNode<T>* newNode= new DoubleNode<T>(info);
+    if ( isEmpty() ){
         head=newNode;
         last=newNode;
     }else{
-        if(nodeReference==head){
+        if (nodeReference==head){
             addNodeFirst(info);
         }else{
             newNode->next=nodeReference;
@@ -108,6 +108,7 @@ void LinkedDouble<T>::addNodeBeforeTo(DoubleNode<T>* nodeReference,T info) {
             nodeReference->previous=newNode;
             newNode->previous->next=newNode;
         }
+
     }
 }
 template<class T>
@@ -125,13 +126,23 @@ T *LinkedDouble<T>::getObject(int position) {
     return NULL;
 }
 template<class T>
+T LinkedDouble<T>::getLast() {
+    return last->info;
+}
+template<class T>
+T LinkedDouble<T>::getFirst() {
+    return head->info;
+}
+template<class T>
 LinkedDouble<T>::~LinkedDouble() {
     while (head!=NULL){
         DoubleNode<T>* aux=head;
         head=head->next;
         delete (aux);
     }
+
 }
+
 
 
 

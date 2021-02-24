@@ -23,6 +23,8 @@ class LinkedDouble {
      void addNodeAfterTo(DoubleNode<T>* nodeReference,T info);
      void addNodeBeforeTo(DoubleNode<T>* nodeReference,T info);
      T* getObject(int position);
+     T getLast();
+     T getFirst();
 
     virtual ~LinkedDouble();
 };

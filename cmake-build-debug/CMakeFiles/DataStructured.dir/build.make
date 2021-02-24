@@ -79,54 +79,54 @@ include CMakeFiles/DataStructured.dir/flags.make
 CMakeFiles/DataStructured.dir/main.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
 CMakeFiles/DataStructured.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructured.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\main.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\main.cpp
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\main.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\main.cpp
 
 CMakeFiles/DataStructured.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\main.cpp > CMakeFiles\DataStructured.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\main.cpp > CMakeFiles\DataStructured.dir\main.cpp.i
 
 CMakeFiles/DataStructured.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\main.cpp -o CMakeFiles\DataStructured.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\main.cpp -o CMakeFiles\DataStructured.dir\main.cpp.s
 
 CMakeFiles/DataStructured.dir/Book.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
 CMakeFiles/DataStructured.dir/Book.cpp.obj: ../Book.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructured.dir/Book.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\Book.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\Book.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp
 
 CMakeFiles/DataStructured.dir/Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/Book.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp > CMakeFiles\DataStructured.dir\Book.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp > CMakeFiles\DataStructured.dir\Book.cpp.i
 
 CMakeFiles/DataStructured.dir/Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/Book.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp -o CMakeFiles\DataStructured.dir\Book.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\Book.cpp -o CMakeFiles\DataStructured.dir\Book.cpp.s
 
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
 CMakeFiles/DataStructured.dir/Stack.cpp.obj: ../Stack.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructured.dir/Stack.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\Stack.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\Stack.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp
 
 CMakeFiles/DataStructured.dir/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/Stack.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp > CMakeFiles\DataStructured.dir\Stack.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp > CMakeFiles\DataStructured.dir\Stack.cpp.i
 
 CMakeFiles/DataStructured.dir/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/Stack.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp -o CMakeFiles\DataStructured.dir\Stack.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\Stack.cpp -o CMakeFiles\DataStructured.dir\Stack.cpp.s
 
 CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: CMakeFiles/DataStructured.dir/flags.make
 CMakeFiles/DataStructured.dir/LinkedList.cpp.obj: ../LinkedList.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jxesa\CLionProjects\DataStructured\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructured.dir/LinkedList.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\LinkedList.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructured.dir\LinkedList.cpp.obj -c C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp
 
 CMakeFiles/DataStructured.dir/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructured.dir/LinkedList.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp > CMakeFiles\DataStructured.dir\LinkedList.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp > CMakeFiles\DataStructured.dir\LinkedList.cpp.i
 
 CMakeFiles/DataStructured.dir/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructured.dir/LinkedList.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp -o CMakeFiles\DataStructured.dir\LinkedList.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jxesa\CLionProjects\DataStructured\LinkedList.cpp -o CMakeFiles\DataStructured.dir\LinkedList.cpp.s
 
 # Object files for target DataStructured
 DataStructured_OBJECTS = \

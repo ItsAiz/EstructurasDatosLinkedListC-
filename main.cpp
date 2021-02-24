@@ -19,8 +19,9 @@ int main() {
         cout<<book<<"\n";
     }
    // cout<<"Posicion 3 buscado: "<<*doubleBook->getObject(3)<<endl;
-   // doubleBook->addNodeAfterTo(doubleBook->findNode("2"),Book("5", "Biblia", "Dios", 216));
+    //doubleBook->addNodeAfterTo(doubleBook->findNode("1"),Book("5", "Biblia", "Dios", 216));
     doubleBook->addNodeBeforeTo(doubleBook->findNode("4"),Book("5", "Biblia", "Dios", 216));
+    //cout<<"getLast: "<<doubleBook->getLast()<<endl;
     cout<<"Hacia adelante anhadido antes de "<<endl;
     for(Book book: doubleBook->getLinkedList(true)){
         cout<<book<<"\n";
